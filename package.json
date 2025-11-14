@@ -18,14 +18,18 @@
     "email": "hgourvest@gmail.com"
   },
   "contributors": [
-      "Popa Marius Adrian <mapopa@gmail.com>",
-      "Peter \u0160irka <petersirka@gmail.com>"
+    "Popa Marius Adrian <mapopa@gmail.com>",
+    "Peter Širka <petersirka@gmail.com>"
   ],
   "main": "./lib",
-  "licenses" : [
+  "types": "./index.d.ts",
+  "licenses": [
     {
-      "type" : "MPL-2.0",
+      "type": "MPL-2.0",
       "url": "https://raw.githubusercontent.com/hgourvest/node-firebird/master/LICENSE"
     }
-  ]
+  ],
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  }
 }
